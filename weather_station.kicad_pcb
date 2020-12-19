@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.8)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5+dfsg1-2build2)
 
   (general
     (thickness 1.6)
@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -888,10 +888,10 @@
       (net 1 GND))
     (pad 2 smd roundrect (at 2.1 0) (size 1.2 2) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(R2-Pad2)"))
-    (model ${KICAD_USER_3D}/Button_Switch_SMD_User.3dshapes/SW_Push_SPST_4x3x2.STEP
-      (offset (xyz -2.5 0.7 0))
+    (model ${KICAD_3D_USER}/Button_Switch_SMD_User.3dshapes/SW_Push_SPST_4x3x2.STEP
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1012,7 +1012,7 @@
       (net 1 GND))
     (pad S1 thru_hole oval (at -4.32 -3.105 90) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KICAD_USER_3D}/Connector_USB_User.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.step
+    (model ${KICAD_3D_USER}/Connector_USB_User.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.step
       (offset (xyz 3.25 3.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
