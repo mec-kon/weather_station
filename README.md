@@ -30,6 +30,10 @@ If the air quality is to be measured as well, a BME680 needs to be used, otherwi
 
 To wake up the ESP8266 from low power mode, the reset pin must be connected to GPIO16. On the board presented here this connection has already been made.
 
+## Additional external sensors
+
+On the backside of the board a male pin header as well as a 5-pin JST-XH connector are located, to which further I2C devices or similar can be connected.
+
 ## Programming
 
 The ESP8266 can be programmed with an FTDI adapter. All needed pins can be found on the pin header on the front side.
@@ -37,7 +41,7 @@ Example Software is provided here:
 
 ![](demo/info.png)
 
-##Measuring the battery level
+## Measuring the battery level
 
 To measure the battery level, it is recommended to use a TP4056 battery charger. An additional device for charging the battery can be connected to it.
 The upper pin of the JST-XH connector then corresponds to B+, the middle to B- and the lower to GND (B- and OUT- on TP4056).
